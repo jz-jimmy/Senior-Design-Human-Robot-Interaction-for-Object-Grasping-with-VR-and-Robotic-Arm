@@ -28,13 +28,13 @@ git clone https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-
 cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
 
 ## DEMO
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/e1373163-3319-4756-8f4b-42a0f04bbefd" />
-
+<img width="1056" height="600" alt="image" src="https://github.com/user-attachments/assets/997d28b4-50dc-4edd-9603-d2771afa9d67" />
+<br><br>
 ![00553649222446e335e5e9656c66706](https://github.com/user-attachments/assets/7ca09435-74aa-452f-9f0d-d5df502898b8)
 
 ## Workflow
 <img width="1731" height="1126" alt="image" src="https://github.com/user-attachments/assets/1fd99da3-d747-46bb-9d8d-6c0c7fa25301" />
-
+<br><br>
 <img width="1366" height="844" alt="image" src="https://github.com/user-attachments/assets/c5cb7535-48c2-4b77-ab21-41e820d353fa" />
 
 
@@ -45,16 +45,16 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 - Pressure Sensor:With LM393 chip, it will output low level if pressure exceeds threshold
 - 42 Stepper Motor Driver:The sub-MCU, integrating FOC algorithm to control the motor with position cycles
 
-<img width="1637" height="1024" alt="image" src="https://github.com/user-attachments/assets/c95a10a7-a49a-47ba-b72f-17d6376e1017" />
+<img width="820" height="512" alt="image" src="https://github.com/user-attachments/assets/c95a10a7-a49a-47ba-b72f-17d6376e1017" />
 
 ### SubModule 2 Gripper 
 - Connecting Flange: Arm Interface
 - Base: Secures motor & linkage
 - Linkage: Transmits power to jaw
 - Flexible Jaws: End-effector for grasping
-<img width="652" height="1144" alt="image" src="https://github.com/user-attachments/assets/cf66e587-fadf-4524-a9ef-edf985b43e10" />
-
-<img width="689" height="1124" alt="image" src="https://github.com/user-attachments/assets/3073caa4-ecfc-43e5-a406-bffc8ac45550" />
+<img width="326" height="572" alt="image" src="https://github.com/user-attachments/assets/cf66e587-fadf-4524-a9ef-edf985b43e10" />
+<br><br>
+<img width="344" height="562" alt="image" src="https://github.com/user-attachments/assets/3073caa4-ecfc-43e5-a406-bffc8ac45550" />
 
 ### SubModule 3 Digital Twin
 Req: At least 10 Hz update frequency for all critical inputs
