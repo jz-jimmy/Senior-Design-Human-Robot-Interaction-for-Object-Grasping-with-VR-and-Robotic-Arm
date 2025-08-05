@@ -28,9 +28,10 @@ git clone https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-
 cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
 
 ## DEMO
-<img width="1056" height="600" alt="image" src="https://github.com/user-attachments/assets/997d28b4-50dc-4edd-9603-d2771afa9d67" />
+<img width="1489" height="849" alt="image" src="https://github.com/user-attachments/assets/7a9e0b74-7692-4b37-9d74-dcb8f9e70dc1" />
 
-![00553649222446e335e5e9656c66706](https://github.com/user-attachments/assets/7ca09435-74aa-452f-9f0d-d5df502898b8)
+<img src="https://github.com/user-attachments/assets/8ae89378-4c84-4095-82e0-044027266989" width="744" height="424" />
+
 
 ## Workflow
 <img width="1731" height="1126" alt="image" src="https://github.com/user-attachments/assets/1fd99da3-d747-46bb-9d8d-6c0c7fa25301" />
