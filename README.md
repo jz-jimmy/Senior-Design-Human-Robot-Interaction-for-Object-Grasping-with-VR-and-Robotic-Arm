@@ -24,10 +24,11 @@ In this project, we presented a VR-guided robotic claw system that enabled intui
 
 ## Installation
 git clone https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm.git
+
 cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
 
 ## DEMO
-<img width="1321" height="759" alt="image" src="https://github.com/user-attachments/assets/e1373163-3319-4756-8f4b-42a0f04bbefd" />
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/e1373163-3319-4756-8f4b-42a0f04bbefd" />
 
 ![00553649222446e335e5e9656c66706](https://github.com/user-attachments/assets/7ca09435-74aa-452f-9f0d-d5df502898b8)
 
@@ -54,6 +55,7 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 <img width="652" height="1144" alt="image" src="https://github.com/user-attachments/assets/cf66e587-fadf-4524-a9ef-edf985b43e10" />
 
 <img width="689" height="1124" alt="image" src="https://github.com/user-attachments/assets/3073caa4-ecfc-43e5-a406-bffc8ac45550" />
+
 ### SubModule 3 Digital Twin
 Req: At least 10 Hz update frequency for all critical inputs
 <img width="783" height="562" alt="image" src="https://github.com/user-attachments/assets/59a9ec2b-c311-4db1-acb1-77e80e676d28" />
@@ -62,7 +64,18 @@ Req: At least 10 Hz update frequency for all critical inputs
 - Chose SteamLink for panel control
 - Use router to increase bandwidth for lower latency
 - Used IVcam to streamline phone camera to VR
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/6134c12f-574a-4503-bf3f-fd55ab759b63" />
 
 ## Contact
 jz030724@gmail.com
+
+## Citation (BibTeX)
+```bibtex
+@misc{JZ_VR_Robotic_Arm,
+  author       = {Jiayu Zhou, Ziming Yan, Yuchen Yang, Jingxing Hu},
+  title        = {Human Robot Interaction for Object Grasping with VR and Robotic Arm},
+  year         = {2025},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{[https://github.com/yourusername/yourrepo](https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm)}}
+}
+
