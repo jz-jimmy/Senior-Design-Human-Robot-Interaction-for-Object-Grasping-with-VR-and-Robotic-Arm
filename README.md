@@ -1,2 +1,68 @@
-# Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
-We present a VR-guided robotic claw system that enables intuitive remote manipulation through a Unity-based digital twin and Meta Quest VR interface. This system aims at assistive and industrial applications, which allows users to grasp objects in real time using a 3D virtual replica synchronized with a UR3e robotic arm.
+<img width="1142" height="90" alt="image" src="https://github.com/user-attachments/assets/cee55ab9-678f-4499-a2a8-9b2f19b25c95" /><img width="1347" height="123" alt="image" src="https://github.com/user-attachments/assets/490c8abe-056e-46e5-9656-fda3d00efaa3" /># Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
+
+This repository contains code, data, and documentation for our senior design project (ECE445). 
+
+In this project, we presented a VR-guided robotic claw system that enabled intuitive remote manipulation through a Unity-based digital twin and Meta Quest VR interface. This system aimed at assistive and industrial applications, which enabled users to grasp objects in real time.
+
+## Key Features 
+- Feature 1: Achieved remote (~20 meters range) control of UR3e Robotic Arm in real-time (latency < 33ms)
+- Feature 2: Created Digital Twins in Local Unity Project with an interface for VR to control through panels
+- Feature 3: 3D-Printed a gripper in PLA + TPU materials with pressure self-adaptation mechanics
+- Feature 4: Designed and soldered circuits on PCB 12 board to enable motor control of serial grasping
+- Feature 5: Used two orthogonally placed cameras for precise manual calibration of the target object
+
+## Requirements
+### Hardware
+- Meta VR 3S 128G
+- UR3e Robotic Arm
+### Software 
+- Unityhub version == 3.12.1
+- Unity3D version == 2022.3.2f1
+- SteamLink
+### Supported on the following Operating Systems
+- Universal Windows Platform, Android
+
+## Installation
+git clone https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm.git
+cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
+
+## DEMO
+<img width="1321" height="759" alt="image" src="https://github.com/user-attachments/assets/e1373163-3319-4756-8f4b-42a0f04bbefd" />
+
+![00553649222446e335e5e9656c66706](https://github.com/user-attachments/assets/7ca09435-74aa-452f-9f0d-d5df502898b8)
+
+## Workflow
+<img width="1731" height="1126" alt="image" src="https://github.com/user-attachments/assets/1fd99da3-d747-46bb-9d8d-6c0c7fa25301" />
+
+<img width="1366" height="844" alt="image" src="https://github.com/user-attachments/assets/c5cb7535-48c2-4b77-ab21-41e820d353fa" />
+
+
+## Project Structure
+### SubModule 1 Motor & PCB
+- STM32F407:The core MCU of control flow, which receives and sends message to motor
+- CAN Module:Designed with TJA1050 chip to transmit the RX & TX message to CAN_H & CAN_L differential level
+- Pressure Sensor:With LM393 chip, it will output low level if pressure exceeds threshold
+- 42 Stepper Motor Driver:The sub-MCU, integrating FOC algorithm to control the motor with position cycles
+
+<img width="1637" height="1024" alt="image" src="https://github.com/user-attachments/assets/c95a10a7-a49a-47ba-b72f-17d6376e1017" />
+
+### SubModule 2 Gripper 
+- Connecting Flange: Arm Interface
+- Base: Secures motor & linkage
+- Linkage: Transmits power to jaw
+- Flexible Jaws: End-effector for grasping
+<img width="652" height="1144" alt="image" src="https://github.com/user-attachments/assets/cf66e587-fadf-4524-a9ef-edf985b43e10" />
+
+<img width="689" height="1124" alt="image" src="https://github.com/user-attachments/assets/3073caa4-ecfc-43e5-a406-bffc8ac45550" />
+### SubModule 3 Digital Twin
+Req: At least 10 Hz update frequency for all critical inputs
+<img width="783" height="562" alt="image" src="https://github.com/user-attachments/assets/59a9ec2b-c311-4db1-acb1-77e80e676d28" />
+
+### SubModule 4 VR 
+- Chose SteamLink for panel control
+- Use router to increase bandwidth for lower latency
+- Used IVcam to streamline phone camera to VR
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/6134c12f-574a-4503-bf3f-fd55ab759b63" />
+
+## Contact
+jz030724@gmail.com
