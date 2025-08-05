@@ -79,3 +79,8 @@ jz030724@gmail.com
   howpublished = {\url{[https://github.com/yourusername/yourrepo](https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm)}}
 }
 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
