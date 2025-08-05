@@ -1,6 +1,7 @@
-<img width="1142" height="90" alt="image" src="https://github.com/user-attachments/assets/cee55ab9-678f-4499-a2a8-9b2f19b25c95" /><img width="1347" height="123" alt="image" src="https://github.com/user-attachments/assets/490c8abe-056e-46e5-9656-fda3d00efaa3" /># Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
+# Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
 ## Project Overview
 This repository contains code, data, and documentation for our senior design project (ECE445). 
+
 In this project, we presented a VR-guided robotic claw system that enabled intuitive remote manipulation through a Unity-based digital twin and Meta Quest VR interface. This system aimed at assistive and industrial applications, which enabled users to grasp objects in real time.
 
 ## Key Features 
