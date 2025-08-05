@@ -1,0 +1,2 @@
+# Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm
+We present a VR-guided robotic claw system that enables intuitive remote manipulation through a Unity-based digital twin and Meta Quest VR interface. This system aims at assistive and industrial applications, which allows users to grasp objects in real time using a 3D virtual replica synchronized with a UR3e robotic arm.
