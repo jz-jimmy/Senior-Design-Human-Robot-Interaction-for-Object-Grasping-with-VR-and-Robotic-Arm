@@ -13,7 +13,7 @@ In this project, we presented a VR-guided robotic claw system that enabled intui
 
 ## Requirements
 ### Hardware
-- Meta VR 3S 128G
+- Meta Quest 3S 128G
 - UR3e Robotic Arm
 ### Software 
 - Unityhub version == 3.12.1
