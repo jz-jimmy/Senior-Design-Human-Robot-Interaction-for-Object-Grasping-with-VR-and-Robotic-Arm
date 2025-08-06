@@ -30,6 +30,8 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 ## DEMO
 <img width="1489" height="849" alt="image" src="https://github.com/user-attachments/assets/7a9e0b74-7692-4b37-9d74-dcb8f9e70dc1" />
 
+![00553649222446e335e5e9656c66706](https://github.com/user-attachments/assets/8e49d4e5-465e-492d-a838-45e68fc26891)
+
 
 
 
