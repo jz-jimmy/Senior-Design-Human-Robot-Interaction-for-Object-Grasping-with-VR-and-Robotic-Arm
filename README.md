@@ -29,7 +29,7 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 
 ## DEMO
 <img width="1489" height="849" alt="image" src="https://github.com/user-attachments/assets/7a9e0b74-7692-4b37-9d74-dcb8f9e70dc1" />
-
+<br>
 ![00553649222446e335e5e9656c66706](https://github.com/user-attachments/assets/8e49d4e5-465e-492d-a838-45e68fc26891)
 
 
@@ -47,9 +47,9 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 - CAN Module:Designed with TJA1050 chip to transmit the RX & TX message to CAN_H & CAN_L differential level
 - Pressure Sensor:With LM393 chip, it will output low level if pressure exceeds threshold
 - 42 Stepper Motor Driver:The sub-MCU, integrating FOC algorithm to control the motor with position cycles
-<br>
-<img width="820" height="512" alt="image" src="https://github.com/user-attachments/assets/c95a10a7-a49a-47ba-b72f-17d6376e1017" />
 
+<img width="820" height="512" alt="image" src="https://github.com/user-attachments/assets/c95a10a7-a49a-47ba-b72f-17d6376e1017" />
+<br>
 ### SubModule 2 Gripper 
 - Connecting Flange: Arm Interface
 - Base: Secures motor & linkage
@@ -57,14 +57,14 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 - Flexible Jaws: End-effector for grasping
 <br>
 <img width="326" height="572" alt="image" src="https://github.com/user-attachments/assets/cf66e587-fadf-4524-a9ef-edf985b43e10" />
-
+<br>
 <img width="344" height="562" alt="image" src="https://github.com/user-attachments/assets/3073caa4-ecfc-43e5-a406-bffc8ac45550" />
-
+<br>
 ### SubModule 3 Digital Twin
 Req: At least 10 Hz update frequency for all critical inputs
 <br><br>
 <img width="783" height="562" alt="image" src="https://github.com/user-attachments/assets/59a9ec2b-c311-4db1-acb1-77e80e676d28" />
-
+<br>
 ### SubModule 4 VR 
 - Chose SteamLink for panel control
 - Used router to increase bandwidth for lower latency
