@@ -15,10 +15,12 @@ In this project, we presented a VR-guided robotic claw system that enabled intui
 ### Hardware
 - Meta Quest 3S 128G
 - UR3e Robotic Arm
+- USB-C cable 3.0
 ### Software 
 - Unityhub version == 3.12.1
 - Unity3D version == 2022.3.2f1
-- SteamLink
+- Meta XR Core SDK
+- SteamLink/Meta Quest Link
 ### Supported OS
 - Universal Windows Platform, Android
 
@@ -43,8 +45,8 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 
 ## Project Structure
 ### SubModule 1 Motor & PCB
-- STM32F407:The core MCU of control flow, which receives and sends message to motor
-- CAN Module:Designed with TJA1050 chip to transmit the RX & TX message to CAN_H & CAN_L differential level
+- STM32F407: The core MCU of control flow, which receives and sends message to motor
+- CAN Module: Designed with TJA1050 chip to transmit the RX & TX message to CAN_H & CAN_L differential level
 - Pressure Sensor:With LM393 chip, it will output low level if pressure exceeds threshold
 - 42 Stepper Motor Driver:The sub-MCU, integrating FOC algorithm to control the motor with position cycles
 
