@@ -19,7 +19,7 @@ In this project, we presented a VR-guided robotic claw system that enabled intui
 - Unityhub version == 3.12.1
 - Unity3D version == 2022.3.2f1
 - SteamLink
-### Supported on the following Operating Systems
+### Supported OS
 - Universal Windows Platform, Android
 
 ## Installation
@@ -35,7 +35,7 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 
 
 
-## Workflow
+## Workflow Map
 <img width="1731" height="1126" alt="image" src="https://github.com/user-attachments/assets/1fd99da3-d747-46bb-9d8d-6c0c7fa25301" />
 
 <img width="1366" height="844" alt="image" src="https://github.com/user-attachments/assets/c5cb7535-48c2-4b77-ab21-41e820d353fa" />
@@ -65,7 +65,7 @@ Req: At least 10 Hz update frequency for all critical inputs
 
 ### SubModule 4 VR 
 - Chose SteamLink for panel control
-- Use router to increase bandwidth for lower latency
+- Used router to increase bandwidth for lower latency
 - Used IVcam to streamline phone camera to VR
 
 ## Contact
@@ -81,7 +81,7 @@ jz030724@gmail.com
   year         = {2025},
   publisher    = {GitHub},
   journal      = {GitHub repository},
-  howpublished = {\url{[https://github.com/yourusername/yourrepo](https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm)}}
+  howpublished = {\url{(https://github.com/jz-jimmy/Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic-Arm)}}
 }
 ```
 
