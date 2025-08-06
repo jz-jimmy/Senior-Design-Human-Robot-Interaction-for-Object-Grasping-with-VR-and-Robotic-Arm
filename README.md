@@ -55,14 +55,14 @@ cd Senior-Design-Human-Robot-Interaction-for-Object-Grasping-with-VR-and-Robotic
 - Base: Secures motor & linkage
 - Linkage: Transmits power to jaw
 - Flexible Jaws: End-effector for grasping
-- <br>
+<br>
 <img width="326" height="572" alt="image" src="https://github.com/user-attachments/assets/cf66e587-fadf-4524-a9ef-edf985b43e10" />
 
 <img width="344" height="562" alt="image" src="https://github.com/user-attachments/assets/3073caa4-ecfc-43e5-a406-bffc8ac45550" />
 
 ### SubModule 3 Digital Twin
 Req: At least 10 Hz update frequency for all critical inputs
-<br>
+<br><br>
 <img width="783" height="562" alt="image" src="https://github.com/user-attachments/assets/59a9ec2b-c311-4db1-acb1-77e80e676d28" />
 
 ### SubModule 4 VR 
